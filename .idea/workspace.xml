@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3e1f95d-e7b3-4849-93e2-4447bd7ef8a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataCounting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/t2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../multithreading-spring/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../multithreading-spring/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test-containers/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test-containers/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tickets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/annotations/out/production/classes/exercise/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/annotations/out/production/classes/exercise/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/authentication/src/main/java/exercise/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/authentication/src/main/java/exercise/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/entity-validation/src/main/java/exercise/controller/GuestsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/entity-validation/src/main/java/exercise/controller/GuestsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/entity-validation/src/main/java/exercise/model/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/entity-validation/src/main/java/exercise/model/Guest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/one-to-many/src/main/java/exercise/controller/TasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/one-to-many/src/main/java/exercise/controller/TasksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/one-to-many/src/main/java/exercise/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/one-to-many/src/main/java/exercise/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/one-to-many/src/main/java/exercise/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/one-to-many/src/main/java/exercise/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/profiles/test.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/profiles/test.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/rest-api/src/main/java/exercise/controller/users/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/rest-api/src/main/java/exercise/controller/users/PostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-spring-ru/search/src/main/java/exercise/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-spring-ru/search/src/main/java/exercise/controller/ProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -50,28 +36,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/ivan/Hexlet/hexlet-assignments/java-advanced-ru/testTaskForIdeaPlatform&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.testDifferenceBetweenMeanAndMedian.executor": "Run",
+    "JUnit.MainTest.testMinFlightTimeByCarrier.executor": "Run",
+    "JUnit.MainTest.testPricesByCarries.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/ivan/testTaskForIdeaPlatform",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
-      </set>
-    </attachedChunks>
+}]]></component>
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testTaskForIdeaPlatform" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testDifferenceBetweenMeanAndMedian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testTaskForIdeaPlatform" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testDifferenceBetweenMeanAndMedian" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testMinFlightTimeByCarrier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testTaskForIdeaPlatform" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testMinFlightTimeByCarrier" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testPricesByCarries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testTaskForIdeaPlatform" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testPricesByCarries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testPricesByCarries" />
+        <item itemvalue="JUnit.MainTest.testMinFlightTimeByCarrier" />
+        <item itemvalue="JUnit.MainTest.testDifferenceBetweenMeanAndMedian" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

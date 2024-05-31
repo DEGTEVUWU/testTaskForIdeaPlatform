@@ -29,7 +29,7 @@ make go
 В Makefile можно просто изменять название файла.  
 
 ### Стек технологий:
-**Java**, **Jackson**, **Picocli**, **Lombok**, **Maven**, **Git**
+**Java**, **Jackson**, **Picocli**, **Lombok**, **Maven**, **Git**, **JUnit5**
 
 ### Текст задания
 ```
