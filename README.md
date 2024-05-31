@@ -1,5 +1,5 @@
-# Тестовое задание для компании Effective Mobile
-[![Maintainability](https://api.codeclimate.com/v1/badges/df4c05187ab8814f82a8/maintainability)](https://codeclimate.com/github/DEGTEVUWU/testTaskForEffectiveMobile/maintainability)
+# Тестовое задание для компании Idea Platform
+[![Maintainability](https://api.codeclimate.com/v1/badges/833de2b19f4703657485/maintainability)](https://codeclimate.com/github/DEGTEVUWU/testTaskForIdeaPlatform/maintainability)  
 
 ## Описание ##
 
