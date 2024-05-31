@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 public class DifferenceBetweenMeanAndMedian {
     public static Map<String, Double> differenceBetweenMeanAndMedian(
         Map<String, Duration> minFlightTimeByCarrier,

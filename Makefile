@@ -16,4 +16,7 @@ spring:
 	   mvn spring-boot:run
 #запустить спринг-бут приложение
 
+go:
+	java -jar target/testTaskForIdeaPlatform-1.0-SNAPSHOT-jar-with-dependencies.jar ./src/main/resources/tickets.json
+
 .PHONY: build

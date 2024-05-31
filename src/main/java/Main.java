@@ -1,49 +1,27 @@
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import functions.DifferenceBetweenMeanAndMedian;
-import functions.MinFlightTimeByCarrier;
-import functions.PricesByCarrier;
-import models.Ticket;
-import models.TicketsWrapper;
-import view.Output;
+import picocli.CommandLine;
+import picocli.CommandLine.Parameters;
+import java.util.concurrent.Callable;
 
-import java.io.File;
-import java.io.IOException;
+public class Main implements Callable {
+    private static final int SUCCESS_EXIT_CODE = 0;
+    private static final int ERROR_EXIT_CODE = 1;
 
-import java.text.ParseException;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-    public class Main {
-        public static void main(String[] args) throws IOException {
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.registerModule(new JavaTimeModule());
-            objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
-
-            List<Ticket> tickets = new ArrayList<>();
-            try {
-                TicketsWrapper ticketsWrapper = objectMapper.readValue(new File("src/main/resources/tickets.json"), TicketsWrapper.class);
-                tickets = ticketsWrapper.getTickets();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            Map<String, Duration> minFlightTimeByCarrier = MinFlightTimeByCarrier.minFlightTimeByCarrier(tickets);
-            Map<String, List<Integer>> pricesByCarrier = PricesByCarrier.pricesByCarrier(tickets);
-            Map<String, Double> difference = DifferenceBetweenMeanAndMedian.differenceBetweenMeanAndMedian(
-                minFlightTimeByCarrier,
-                pricesByCarrier
-            );
-
-            Output.output(
-                minFlightTimeByCarrier,
-                difference
-                );
+    @Parameters(paramLabel = "filepath1", description = "path to first file")
+    private String filePath1;
+    @Override
+    public Integer call() throws Exception {
+        try {
+            DataCounting.generate(filePath1);
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+            return ERROR_EXIT_CODE;
         }
+        return SUCCESS_EXIT_CODE;
     }
+
+    public static void main(String[] args) throws Exception {
+        int exitCode = new CommandLine(new Main()).execute(args);
+        System.exit(exitCode);
+    }
+}
